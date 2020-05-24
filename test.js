@@ -1,4 +1,4 @@
-#Simple HTTP server listening port 8080 for testing.
+//Simple HTTP server listening port 8080 for testing.
 
 var http = require('http');
 var i = 0;
