@@ -1,0 +1,9 @@
+#Copy / Adopt this template to your values and save it in ~/.ssh/config
+
+Host proxit
+  Hostname ec2-13-127-182-4.ap-south-1.compute.amazonaws.com
+  User ubuntu
+  Port 22
+  IdentityFile ~/.ssh/mahesh_ssh_tunnel.pem
+  RemoteForward \*:8080 127.0.0.1:8080
+
